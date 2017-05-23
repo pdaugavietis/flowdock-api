@@ -43,7 +43,6 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>.freeze, ["~> 0.7"])
       s.add_runtime_dependency(%q<multi_json>.freeze, [">= 0"])
-      s.add_development_dependency(%q<rake>.freeze, ["< 11.0"])
       s.add_development_dependency(%q<rdoc>.freeze, [">= 2.4.2"])
       s.add_development_dependency(%q<rspec>.freeze, ["~> 2.6"])
       s.add_development_dependency(%q<webmock>.freeze, [">= 0"])
@@ -53,7 +52,6 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<httparty>.freeze, ["~> 0.7"])
       s.add_dependency(%q<multi_json>.freeze, [">= 0"])
-      s.add_dependency(%q<rake>.freeze, ["< 11.0"])
       s.add_dependency(%q<rdoc>.freeze, [">= 2.4.2"])
       s.add_dependency(%q<rspec>.freeze, ["~> 2.6"])
       s.add_dependency(%q<webmock>.freeze, [">= 0"])
@@ -64,7 +62,6 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<httparty>.freeze, ["~> 0.7"])
     s.add_dependency(%q<multi_json>.freeze, [">= 0"])
-    s.add_dependency(%q<rake>.freeze, ["< 11.0"])
     s.add_dependency(%q<rdoc>.freeze, [">= 2.4.2"])
     s.add_dependency(%q<rspec>.freeze, ["~> 2.6"])
     s.add_dependency(%q<webmock>.freeze, [">= 0"])
